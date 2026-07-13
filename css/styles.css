@@ -1,0 +1,39 @@
+/* IMPORTS */
+@import url(custom-properties.css);
+
+/* INITIAL */
+html {
+  font-family: "Inter";
+  font-size: var(--p-font-size);
+  color: var(--White);
+}
+* {
+  box-sizing: border-box;
+}
+
+/* STYLES - Mobile first */
+body {
+  /* box */
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Grey-900);
+
+  /* arrange content, try css grid to push individual items to the end of the main axis */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+
+  /* profile links container */
+  .profile {
+    /* box */
+    background-color: var(--Grey-800);
+  }
+
+  /* footer */
+  .attribution {
+    align-self: flex-end;
+    margin-top: auto;
+  }
+}
